@@ -208,6 +208,7 @@ const App = () => {
       await program.rpc.downVoteGif(gifLink, {
         accounts: {
           baseAccount: baseAccount.publicKey,
+          user: provider.wallet.publicKey,
           systemProgram: SystemProgram.programId,
         },
       });
@@ -229,6 +230,7 @@ const App = () => {
       await program.rpc.upvoteGif(gifLink, {
         accounts: {
           baseAccount: baseAccount.publicKey,
+          user: provider.wallet.publicKey,
           systemProgram: SystemProgram.programId,
         },
       });
