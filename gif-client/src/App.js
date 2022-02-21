@@ -167,7 +167,6 @@ const App = () => {
                 <div className="vote-button">
                   <button className="button-8" onClick={() => upvoteGif(item.gifLink)}>UpVote</button>
                   <button className="button-8" onClick={() => downVoteGif(item.gifLink)}>DownVote</button>
-                  <button className="button-8" onClick={() => deleteGif(item.gifLink)}>Delete</button>
                 </div>
               </div>
             ))}
