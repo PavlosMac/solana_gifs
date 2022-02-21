@@ -15,4 +15,3 @@ User can:
 *  instantiate account
 *  add gifs
 *  upvote/downvote any Gif
-*  delete their own Gifs
